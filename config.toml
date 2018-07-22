@@ -1,0 +1,26 @@
+baseURL = "http://oolajen.com/"
+languageCode = "en-us"
+title = "Jennifer Lee"
+theme = "sam"
+pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+
+[blackfriday]
+   plainIDAnchors = true
+   hrefTargetBlank = true
+
+[params]
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = true                          # Allow links to the full size images
+    footerText          = "Powered by Hugo."
+
+[[params.mainMenu]]
+    link = "https://github.com/oolajen"
+    text = "codes"
+
+[[params.mainMenu]]
+    link = "/gallery"
+    text = "about"
